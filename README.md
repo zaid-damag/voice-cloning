@@ -19,10 +19,15 @@ Includes a **GUI interface (Gradio)** with **multi-language support** for easy i
 ## 📂 Project Structure
 .
 ├── Docker/ # Docker build and environment files
+
 ├── clone_tts.py # Main Python script
+
 ├── pyproject.toml # Dependencies and project configuration
+
 ├── README.md # Project documentation
+
 ├── LICENSE # License file
+
 └── .gitignore # Ignored files
 
 yaml
