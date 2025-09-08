@@ -3,20 +3,22 @@ name = "voice-cloning"
 version = "0.1.0"
 description = "Voice cloning using Python and AI"
 requires-python = ">=3.11"
-
 dependencies = [
-    "torch>=1.12.0",               # PyTorch لتدريب النماذج
-    "speechbrain>=0.5.5",          # SpeechBrain لتحويل النص إلى كلام
-    "freevc>=1.0.0",              # FreeVC لتحويل الصوت
-    "wavmark>=0.0.3",             # WavMark لإضافة علامة مائية
-    "librosa>=0.8.1",             # لتحليل الصوت
-    "pydub>=0.25.1",              # للتعامل مع الصوت
-    "numpy>=1.21.0",              # مكتبة numpy
+    "TTS>=0.15.3",
+    "torch>=1.12.0",
+    "torchaudio>=0.12.0",
+    "librosa>=0.8.1",
+    "soundfile>=0.12.1",
+    "numpy>=1.21.0",
+    "gradio>=3.36.0",
+    "wavmark>=0.0.3",
+    "pydub>=0.25.1",
+    "speechbrain>=0.5.5",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=7.0.0",              # لاختبار المشروع
-    "black>=23.0.0",              # لتنسيق الكود
-    "flake8>=6.0.0",              # لتحليل الكود
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
 ]
