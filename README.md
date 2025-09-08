@@ -31,7 +31,7 @@ Includes a **GUI interface (Gradio)** with **multi-language support** for easy i
 └── .gitignore # Ignored files
 
 yaml
-Copy code
+
 
 ---
 
@@ -54,7 +54,7 @@ cd voice-cloning
 pip install -e .
 🐳 Run with Docker
 bash
-Copy code
+
 # Build the Docker image
 docker build -t voice-cloning .
 
